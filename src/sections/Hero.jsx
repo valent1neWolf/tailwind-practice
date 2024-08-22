@@ -7,7 +7,6 @@ import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
-  console.log(bigShoeImg);
 
   return (
     <section

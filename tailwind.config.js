@@ -35,6 +35,15 @@ export default {
       screens: {
         wide: "1440px",
       },
+      keyframes: {
+        slideInLeft: {
+          "0%": { transform: "translateX(-100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        slideInLeft: "slideInLeft 1.0s ease-out forwards",
+      },
     },
   },
   plugins: [],

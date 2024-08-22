@@ -1,7 +1,6 @@
 import React from "react";
 
 const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
-  console.log(imgURL);
   function handleClick() {
     if (bigShoeImg !== imgURL.bigShoe) {
       changeBigShoeImage(imgURL.bigShoe);

@@ -12,6 +12,10 @@
   scroll-behavior: smooth;
 }
 
+.hidden-before-animation {
+  opacity: 0;
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
